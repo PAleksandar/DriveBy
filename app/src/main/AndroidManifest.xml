@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nenad.projekat">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+
+        <!-- android:theme="@style/AppTheme" -->
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CustomerLoginActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".DriverLoginActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChatActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity2"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".register"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Design.NoActionBar" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".DriverMapsActivity"
+            android:label="@string/title_activity_driver_maps"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".CustomerMapsActivity"
+            android:launchMode="singleTask">
+            android:theme="@style/Theme.Design.NoActionBar"
+            android:label="@string/title_activity_customer_maps"
+        </activity>
+        <activity
+            android:name=".ZakazivanjeVoznjeActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".PrikazVozacaActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ProfileActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".DriverChatActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".PregledZakazanihVoznjiVozacActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".PregledZakazanihVoznjiKorisnikActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".AllDriversActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".DriverProfileActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".PrikazKorisnikaActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ZaBrisanje"
+            android:label="@string/title_activity_za_brisanje"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RejtingActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".UpdateInformationActivity"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+    </application>
+
+</manifest>

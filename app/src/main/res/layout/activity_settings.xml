@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.nenad.projekat.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_profile_image5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/default_profile" />
+
+    <TextView
+        android:id="@+id/settings_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="User name "
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/settings_user_profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="User profile status "
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/change5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_user_profile_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:background="@android:color/background_light"
+        android:text="Change image"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/settings_change_profile_status"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/change5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/change5"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/background_light"
+        android:text="Change status "
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>

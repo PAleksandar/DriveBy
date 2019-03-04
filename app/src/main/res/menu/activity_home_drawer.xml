@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+
+
+        <item android:id="@+id/zakazanevoznje2"
+            android:icon="@drawable/ic_lista"
+            android:title="ZAKAZANE VOZNJE"/>
+        <item android:id="@+id/promena"
+            android:icon="@drawable/zapromenu"
+            android:title="UPDATE INFORMATION"/>
+        <item android:id="@+id/chat3"
+            android:icon="@drawable/zachat"
+            android:title="CHAT"/>
+        <item android:id="@+id/help"
+            android:icon="@drawable/zahelp"
+            android:title="HELP"/>
+        <item android:id="@+id/odjava"
+            android:icon="@drawable/zaodjavu"
+            android:title="SIGN OUT"/>
+    </group>
+
+
+
+</menu>

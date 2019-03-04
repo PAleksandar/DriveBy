@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientblue"
+    tools:context="com.example.nenad.projekat.SettingsActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="258dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/gradientblack" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_profile_image6"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/default_profile" />
+
+    <TextView
+        android:id="@+id/settings_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="206dp"
+        android:text="User name "
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/settings_user_profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:text="Rating"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/change6"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/roundgradientblue"
+        android:text="Change image"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/save6"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundgradientblue"
+        android:text="SAVE CHANGES"
+        android:textColor="#ffffff" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtName6"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="232dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/bela"
+        android:textColorHint="@color/bela"
+        android:textSize="20sp"
+        app:met_baseColor="@color/bela"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/bela"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtPhone6"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:text=""
+        android:textColor="@color/bela"
+        android:textColorHint="@color/bela"
+        android:textSize="20sp"
+        app:met_baseColor="@color/bela"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/bela"
+        app:met_singleLineEllipsis="true" /><![CDATA[
+
+    android:textSize="18sp" />
+
+]]>
+</RelativeLayout>
